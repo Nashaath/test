@@ -40,45 +40,45 @@ Choreo supports the following trigger types:
  - **Calendar**: Allows you to trigger an application based on events in a Google Calendar.
  - **GitHub**: Allows you to trigger an application based on GitHub events and actions. The supported GitHub events and associated actions that can trigger a Choreo application are as follows:
 
-| Event                       | Action                 | Application Trigger                      |
-|-----------------------------|------------------------|------------------------------------------|
-| issue_comment               | created                | Add a comment to an issue                |
-|                             | edited                 | Edit a comment on an issue               |
-|                             | deleted                | Delete a comment on an issue             |
-| issues                      | assigned               | Assign an issue to a user                |
-|                             | unassigned             | Unassign an issue from a user            |
-|                             | labeled                | Add a label to an issue                  |
-|                             | unlabeled              | Remove a label from an issue             |
-|                             | opened                 | Open an issue                            |
-|                             | edited                 | edit an issue                            |
-|                             | milestoned             | Add a milestone to an issue              |
-|                             | demilestoned           | Remove a milestone from an issue         |
-|                             | closed                 | Close an issue                           |
-|                             | reopened               | Reopen an issue                          |
-| label                       | created                | Create a label                           |
-|                             | edited                 | Edit a label                             |
-|                             | deleted                | Delete a label                           |
-| milestone                   | created                | Create a milestone                       |
-|                             | closed                 | Close a milestone                        |
-|                             | opened                 | Open a milestone                         |
-|                             | edited                 | Edit a milestone                         |
-|                             | deleted                | Delete a milestone                       |
-| pull_request                | assigned               | Assign a pull request to a user          |
-|                             | unassigned             | Unassign a pull request from a user      |
-|                             | review_requested       | Request a user to review a pull request  |
-|                             | review_request_removed |                                          |
-|                             | labeled                | Add a label to a pull request            |
-|                             | unlabeled              | Remove a label from a pull request       |
-|                             | opened                 | Open a pull request                      |
-|                             | edited                 | Edit a pull request                      |
-|                             | closed                 | Close a pull request                     |
-|                             | reopened               | Reopen a pull request                    |
-| pull_request_review         | submitted              | Submit a pull request                    |
-|                             | edited                 | Edit a pull request review               |
-|                             | dismissed              | Dismiss a pull request review            |
-| pull_request_review_comment | created                | Create a pull request review comment     |
-|                             | edited                 | Edit a pull request review comment       |
-|                             | deleted                | Delete a pull request review comment     | 
+   | Event                       | Action                 | Application Trigger                      |
+   |-----------------------------|------------------------|------------------------------------------|
+   | issue_comment               | created                | Add a comment to an issue                |
+   |                             | edited                 | Edit a comment on an issue               |
+   |                             | deleted                | Delete a comment on an issue             |
+   | issues                      | assigned               | Assign an issue to a user                |
+   |                             | unassigned             | Unassign an issue from a user            |
+   |                             | labeled                | Add a label to an issue                  |
+   |                             | unlabeled              | Remove a label from an issue             |
+   |                             | opened                 | Open an issue                            |
+   |                             | edited                 | edit an issue                            |
+   |                             | milestoned             | Add a milestone to an issue              |
+   |                             | demilestoned           | Remove a milestone from an issue         |
+   |                             | closed                 | Close an issue                           |
+   |                             | reopened               | Reopen an issue                          |
+   | label                       | created                | Create a label                           |
+   |                             | edited                 | Edit a label                             |
+   |                             | deleted                | Delete a label                           |
+   | milestone                   | created                | Create a milestone                       |
+   |                             | closed                 | Close a milestone                        |
+   |                             | opened                 | Open a milestone                         |
+   |                             | edited                 | Edit a milestone                         |
+   |                             | deleted                | Delete a milestone                       |
+   | pull_request                | assigned               | Assign a pull request to a user          |
+   |                             | unassigned             | Unassign a pull request from a user      |
+   |                             | review_requested       | Request a user to review a pull request  |
+   |                             | review_request_removed |                                          |
+   |                             | labeled                | Add a label to a pull request            |
+   |                             | unlabeled              | Remove a label from a pull request       |
+   |                             | opened                 | Open a pull request                      |
+   |                             | edited                 | Edit a pull request                      |
+   |                             | closed                 | Close a pull request                     |
+   |                             | reopened               | Reopen a pull request                    |
+   | pull_request_review         | submitted              | Submit a pull request                    |
+   |                             | edited                 | Edit a pull request review               |
+   |                             | dismissed              | Dismiss a pull request review            |
+   | pull_request_review_comment | created                | Create a pull request review comment     |
+   |                             | edited                 | Edit a pull request review comment       |
+   |                             | deleted                | Delete a pull request review comment     | 
 
 
 ### Statement
