@@ -29,16 +29,16 @@ A trigger in Choreo is an event or an action that can cause a Choreo application
 
 Choreo supports the following trigger types:
 
- - API: Allows you to expose an application as an API endpoint. 
- - Manual: Allows you to trigger an application manually.
- - Schedule: Allows to trigger an application based on a schedule that you set. You can specify the schedule in the form of a cron expression.
+ - **API**: Allows you to expose an application as an API endpoint. 
+ - **Manual**: Allows you to trigger an application manually.
+ - **Schedule**: Allows to trigger an application based on a schedule that you set. You can specify the schedule in the form of a cron expression.
    <html><div class="admonition note">
      <p class="admonition-title">Note</p>
      <p> A cron expression represents details of a schedule. It is a string that contains subfields separated by whitespaces. Each special character (*) represents seconds, minutes, hours, date, month, day, and year respectively.</p>
      </div>
      </html> 
- - Calendar: Allows you to trigger an application based on events in a Google Calendar.
- - GitHub  Allows you to trigger an application based on GitHub events and actions. The supported GitHub events and associated actions that can trigger a Choreo application are as follows:
+ - **Calendar**: Allows you to trigger an application based on events in a Google Calendar.
+ - **GitHub**: Allows you to trigger an application based on GitHub events and actions. The supported GitHub events and associated actions that can trigger a Choreo application are as follows:
 
 | Event                       | Action                 | Application Trigger                      |
 |-----------------------------|------------------------|------------------------------------------|
@@ -87,12 +87,12 @@ A statement is a syntactic unit that specifies the action to be carried out in a
 
 Choreo supports the following statements:
 
- - Log: Allows you to add an entry to the application log at runtime. You can either add an **Info** log or an **Error** log depending on your requirement   
- - If: Allows you to execute a collection of statements if a specified condition is met.    
- - Variable: Allows you to declare a variable of a preferred type depending on your requirement.   
- - For-each: Allows you to traverse through items in a collection of data. For example, traverse through arrays, maps, JSON, XML, and tables.  
- - Respond: Allows you to send a response back to its client. For example, to get an API to respond with an `HTTP_OK` indicating that the request was processed successfully.
- - Return: Allows you to end the ongoing execution of a Choreo application.
+ - **Log**: Allows you to add an entry to the application log at runtime. You can either add an **Info** log or an **Error** log depending on your requirement   
+ - **If**: Allows you to execute a collection of statements if a specified condition is met.    
+ - **Variable**: Allows you to declare a variable of a preferred type depending on your requirement.   
+ - **For-each**: Allows you to traverse through items in a collection of data. For example, traverse through arrays, maps, JSON, XML, and tables.  
+ - **Respond**: Allows you to send a response back to its client. For example, to get an API to respond with an `HTTP_OK` indicating that the request was processed successfully.
+ - **Return**: Allows you to end the ongoing execution of a Choreo application.
 
 
 ### Connector
@@ -101,18 +101,18 @@ A Choreo connector allows you to connect to and interact with an external servic
 
 Following are the connectors you can use to interact with generic protocol-based APIs:
   
- - HTTP: Allows your application to interact with the HTTP API and communicate with an external endpoint via the HTTP protocol.   
- - SMTP: Allows your application to send emails via the SMTP protocol.   
- - POP3: Allows your application to receive emails from a POP3 email server.  
- - IMAP: Allows your application to receive emails from any email server that supports the IMAP protocol. 
+ - **HTTP**: Allows your application to interact with the HTTP API and communicate with an external endpoint via the HTTP protocol.   
+ - **SMTP**: Allows your application to send emails via the SMTP protocol.   
+ - **POP3**: Allows your application to receive emails from a POP3 email server.  
+ - **IMAP**: Allows your application to receive emails from any email server that supports the IMAP protocol. 
 
 Following are the connectors you can use to interact with application specific APIs:
 
- - GitHub: Allows your application to interact with the GitHub API and  perform required operations. 
- - Gmail: Allows your application to interact with the Gmail API and perform operations such as creating, modifying, and sending emails.
- - Google Calendar: Allows your application to interact with the Google Calendar API and perform required operations. 
- - Google Sheets: Allows your application to interact with the Google Sheets API and perform operations such as creating and listing spreadsheets.
- - Twilio: Allows your application to interact with the Twilio API and perform operations such as sending messages, WhatsApp messages, and making voice calls.
+ - **GitHub**: Allows your application to interact with the GitHub API and  perform required operations. 
+ - **Gmail**: Allows your application to interact with the Gmail API and perform operations such as creating, modifying, and sending emails.
+ - **Google Calendar**: Allows your application to interact with the Google Calendar API and perform required operations. 
+ - **Google Sheets**: Allows your application to interact with the Google Sheets API and perform operations such as creating and listing spreadsheets.
+ - **Twilio**: Allows your application to interact with the Twilio API and perform operations such as sending messages, WhatsApp messages, and making voice calls.
 
 
 ## Basic concepts
