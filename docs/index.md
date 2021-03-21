@@ -6,7 +6,7 @@ template: templates/single-column.html
     <div class="md-main md-content" style="float:left; width: 100%;  text-align:justify; max-height:100%; ">
         <p> Choreo is a digital innovation platform that allows you to develop, deploy, and manage cloud-native applications at scale via an AI-powered, low-code application development environment.</p>
 
-        <p>This learning portal allows you to easily browse through Choreo documentation, video tutorials, webinars, and all other resources to learn about Choreo and its capabilities.>
+        <p>This learning portal allows you to easily browse through Choreo documentation, video tutorials, webinars, and all other resources to learn about Choreo and its capabilities.</p>
 
 
 <p>Select a topic and dive in to learn how to use Choreo to build enterprise-class applications fast while ensuring best practices and secure coding guidelines:</p> 
