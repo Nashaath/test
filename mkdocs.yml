@@ -1,0 +1,121 @@
+# Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+#
+# WSO2 Inc. licenses this file to you under the Apache License,
+# Version 2.0 (the "License"); you may not use this file except
+# in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+# Project information
+site_name: Choreo Learning Portal
+site_description: Choreo Learning Portal
+site_author: test
+site_url: https://nashaath.github.io/test/
+
+# Repository
+repo_name:  Nashaath/test
+repo_url: https://github.com/Nashaath/test
+edit_uri: https://github.com/Nashaath/test/edit/main/docs/
+
+# Copyright
+copyright: Documentation
+
+# Configuration
+theme: material
+theme:
+  name: material
+  palette:
+    primary: Indigo 400
+    accent: Indigo 400
+  custom_dir: theme/material
+  logo: images/logo.png
+  favicon: images/favicon.png
+  highlightjs: true
+  feature:
+    tabs: true
+  language: 'en'
+  
+# Navigation
+nav:
+  - 'Welcome to the Choreo Learning Portal': index.md
+  - 'Welcome':
+     - 'Get to Know Choreo':
+        - 'About Choreo': learn/overview.md
+        - 'Understand  Concepts': learn/concepts.md
+     - 'Build Integrations':
+        - 'Build Your Integration from Scratch': learn/build-from-scratch.md
+        - 'Use an Existing Integration and Customize': learn/use-existing.md
+     - 'Work with Services':
+        - 'Create Your Own Service': learn/create-service.md
+        - 'Use a Sample Service and Customize': learn/use-sample.md
+     - 'Manage APIs':
+        - 'Create an API From a Choreo Application': learn/create-from-choreo.md
+        - 'Create an API From a REST API Definition': learn/create-from-rest-definition.md
+     - 'Observe applications':
+        - 'Observe a Sample Application': learn/observe-sample-app.md
+        - 'Perform Root Cause Analysis': learn/perform-analysis.md
+     - 'Explore Business Scenarios':
+        - 'Integrate Google Sheets with Stripe': learn/google-sheets-stripe.md
+        - 'Integrate Google Sheets with Salesforce': learn/google-sheets-salesforce.md
+     - 'Automate DevOps':
+        - 'Deploy Integrations to Kubernetes': learn/deploy-to-k8s.md
+     - 'References':
+        - 'Choreo Expression Editor Syntax': learn/expression-editor.md
+     - 'FAQs':
+        - 'Frequently Asked Questions': learn/faq.md
+  - '': page-not-found.md 
+  
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      use_pygments: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+    
+# Extra
+extra_css:
+  - assets/lib/highlightjs/default.min.css
+  - assets/css/theme.css
+extra_javascript:
+  - assets/lib/highlightjs/highlight.min.js
+  - assets/js/theme.js
+  - assets/lib/backtotop/js/util.js
+  - assets/lib/backtotop/js/main.js
+extra:
+  social:
+    - type: github
+      link: https://github.com/wso2
+    - type: twitter
+      link: https://twitter.com/wso2
+    - type: linkedin
+      link: https://www.linkedin.com/company/wso2
