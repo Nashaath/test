@@ -59,7 +59,7 @@ nav:
      - 'Manage APIs':
         - 'Create an API From a Choreo Application': learn/create-from-choreo.md
         - 'Create an API From a REST API Definition': learn/create-from-rest-definition.md
-     - 'Observe applications':
+     - 'Observe Applications':
         - 'Observe a Sample Application': learn/observe-sample-app.md
         - 'Perform Root Cause Analysis': learn/perform-analysis.md
      - 'Explore Business Scenarios':
