@@ -24,7 +24,7 @@ site_url: https://nashaath.github.io/test/
 repo_name:  Nashaath/test
 repo_url: https://github.com/Nashaath/test
 edit_uri: https://github.com/Nashaath/test/edit/main/docs/
-docs_dir: documentation
+docs_dir: docs
 
 # Copyright
 copyright: Documentation
