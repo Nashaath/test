@@ -1,0 +1,1382 @@
+<!--
+ * Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Choreo Learning Portal">
+      
+      
+        <meta name="author" content="test">
+      
+      
+        <link rel="canonical" href="https://nashaath.github.io/test/learn/concepts/">
+      
+      
+        <link rel="prev" href="../overview/">
+      
+      
+        <link rel="next" href="../build-from-scratch/">
+      
+      
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
+    
+    
+      
+        <title>Understand Concepts - Choreo Learning Portal</title>
+      
+    
+    
+  
+      <link rel="stylesheet" href="../../assets/stylesheets/main.06209087.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+  <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/lib/highlightjs/default.min.css">
+    
+      <link rel="stylesheet" href="../../assets/css/theme.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103065-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'UA-103065-9');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+  w[l] = w[l] || []; w[l].push({
+    'gtm.start':
+      new Date().getTime(), event: 'gtm.js'
+  }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-TSWTP6');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Hotjar Tracking Code for https://is.docs.wso2.com/ -->
+<script>
+  (function (h, o, t, j, a, r) {
+    h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+    h._hjSettings = { hjid: 1000689, hjsv: 6 };
+    a = o.getElementsByTagName('head')[0];
+    r = o.createElement('script'); r.async = 1;
+    r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+    a.appendChild(r);
+  })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+</script>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="Indigo-400" data-md-color-accent="Indigo-400">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#understand-choreo-concepts" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+ * Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
+<header class="md-header" data-md-component="header" id="page-header" data-url="" data-lang="en">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://nashaath.github.io/test/" title="Choreo Learning Portal" class="md-header-nav__button md-logo">
+          
+            <img src="../../images/logo.png" >
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Choreo Learning Portal
+            </span>
+            <span class="md-header-nav__topic">
+              Understand  Concepts
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+    <label class="md-nav__title md-nav__title--site" for="__drawer">
+      <a href="https://nashaath.github.io/test/" title="Choreo Learning Portal"
+         class="md-nav__button md-logo">
+        
+          <img src="../../images/logo.png" width="48" height="48">
+        
+      </a>
+      Choreo Learning Portal
+    </label>
+    
+      <div class="md-nav__source">
+        <a href="https://github.com/Nashaath/test" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Nashaath/test
+  </div>
+</a>
+      </div>
+    
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        
+        
+        
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome to the Choreo Learning Portal" class="md-nav__link">
+      Welcome to the Choreo Learning Portal
+    </a>
+  </li>
+
+      
+        
+        
+        
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Welcome
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Welcome
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1" checked>
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Get to Know Choreo
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        Get to Know Choreo
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../overview/" title="About Choreo" class="md-nav__link">
+      About Choreo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Understand  Concepts
+      </label>
+    
+    <a href="./" title="Understand Concepts" class="md-nav__link md-nav__link--active">
+      Understand  Concepts
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+    
+    
+    
+    
+    
+    <a href="#" title="On this page" class="nav_link md-icon md-content__icon toc_icon" id="tocToggleBtn">toc</a>
+    <label class="md-nav__title" for="__toc">toc.title</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+        
+        <li class="md-nav__item">
+  <a href="#console-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Console components
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Console components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#develop-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Develop view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploy-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploy view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#observe-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observe view
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+        <li class="md-nav__item">
+  <a href="#key-constructs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key constructs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key constructs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connector" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connector
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+        <li class="md-nav__item">
+  <a href="#basic-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic concepts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+        
+        
+        
+        
+    </ul>
+    
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Build Integrations
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Build Integrations
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../build-from-scratch/" title="Build Your Integration from Scratch" class="md-nav__link">
+      Build Your Integration from Scratch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../use-existing/" title="Use an Existing Integration and Customize" class="md-nav__link">
+      Use an Existing Integration and Customize
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Work with Services
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Work with Services
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../create-service/" title="Create Your Own Service" class="md-nav__link">
+      Create Your Own Service
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../use-sample/" title="Use a Sample Service and Customize" class="md-nav__link">
+      Use a Sample Service and Customize
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Manage APIs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        Manage APIs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../create-from-choreo/" title="Create an API From a Choreo Application" class="md-nav__link">
+      Create an API From a Choreo Application
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../create-from-rest-definition/" title="Create an API From a REST API Definition" class="md-nav__link">
+      Create an API From a REST API Definition
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      Observe Applications
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        Observe Applications
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../observe-sample-app/" title="Observe a Sample Application" class="md-nav__link">
+      Observe a Sample Application
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perform-analysis/" title="Perform Root Cause Analysis" class="md-nav__link">
+      Perform Root Cause Analysis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+    
+    <label class="md-nav__link" for="nav-2-6">
+      Explore Business Scenarios
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        Explore Business Scenarios
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../google-sheets-stripe/" title="Integrate Google Sheets with Stripe" class="md-nav__link">
+      Integrate Google Sheets with Stripe
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../google-sheets-salesforce/" title="Integrate Google Sheets with Salesforce" class="md-nav__link">
+      Integrate Google Sheets with Salesforce
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7">
+    
+    <label class="md-nav__link" for="nav-2-7">
+      Automate DevOps
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-7">
+        Automate DevOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../deploy-to-k8s/" title="Deploy Integrations to Kubernetes" class="md-nav__link">
+      Deploy Integrations to Kubernetes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-8" type="checkbox" id="nav-2-8">
+    
+    <label class="md-nav__link" for="nav-2-8">
+      References
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-8">
+        References
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../expression-editor/" title="Choreo Expression Editor Syntax" class="md-nav__link">
+      Choreo Expression Editor Syntax
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-9" type="checkbox" id="nav-2-9">
+    
+    <label class="md-nav__link" for="nav-2-9">
+      FAQs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-9">
+        FAQs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="Frequently Asked Questions" class="md-nav__link">
+      Frequently Asked Questions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+      
+        
+        
+        
+
+
+  <li class="md-nav__item">
+    <a href="../../page-not-found/" title="" class="md-nav__link">
+      
+    </a>
+  </li>
+
+      
+    </ul>
+  </nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+    
+    
+    
+    
+    
+    <a href="#" title="On this page" class="nav_link md-icon md-content__icon toc_icon" id="tocToggleBtn">toc</a>
+    <label class="md-nav__title" for="__toc">toc.title</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+        
+        <li class="md-nav__item">
+  <a href="#console-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Console components
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Console components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#develop-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Develop view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploy-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploy view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#observe-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observe view
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+        <li class="md-nav__item">
+  <a href="#key-constructs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key constructs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key constructs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connector" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connector
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+        <li class="md-nav__item">
+  <a href="#basic-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic concepts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+        
+        
+        
+        
+    </ul>
+    
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+  
+  
+
+
+<h1 id="understand-choreo-concepts">Understand Choreo Concepts<a class="headerlink" href="#understand-choreo-concepts" title="Permanent link">&para;</a></h1>
+<p>Before you start working with Choreo, there are certain Choreo Console components, constructs, and basic terminology that you need to understand. This section walks you through all the concepts and constructs. </p>
+<h2 id="console-components">Console components<a class="headerlink" href="#console-components" title="Permanent link">&para;</a></h2>
+<h3 id="develop-view">Develop view<a class="headerlink" href="#develop-view" title="Permanent link">&para;</a></h3>
+<h3 id="test-view">Test view<a class="headerlink" href="#test-view" title="Permanent link">&para;</a></h3>
+<h3 id="deploy-view">Deploy view<a class="headerlink" href="#deploy-view" title="Permanent link">&para;</a></h3>
+<h3 id="observe-view">Observe view<a class="headerlink" href="#observe-view" title="Permanent link">&para;</a></h3>
+<h2 id="key-constructs">Key constructs<a class="headerlink" href="#key-constructs" title="Permanent link">&para;</a></h2>
+<p>Described below are the key constructs you will come across when you start working with the Choreo console. </p>
+<h3 id="trigger">Trigger<a class="headerlink" href="#trigger" title="Permanent link">&para;</a></h3>
+<p>A trigger in Choreo is an event or an action that can cause a Choreo application to start executing.</p>
+<p>Choreo supports the following trigger types:</p>
+<ul>
+<li><strong>API</strong>: Allows you to expose an application as an API endpoint. </li>
+<li><strong>Manual</strong>: Allows you to trigger an application manually.</li>
+<li><strong>Schedule</strong>: Allows to trigger an application based on a schedule that you set. You can specify the schedule in the form of a cron expression.
+ <br />
+<html><div class="admonition note">
+     <p class="admonition-title">Note</p>
+     <p> A cron expression represents details of a schedule. It is a string that contains subfields separated by whitespaces. Each special character (*) represents seconds, minutes, hours, date, month, day, and year respectively.</p>
+     </div>
+     </html></li>
+</ul>
+<p>- <strong>Calendar</strong>: Allows you to trigger an application based on events in a Google Calendar.
+ - <strong>GitHub</strong>: Allows you to trigger an application based on GitHub events and actions. The supported GitHub events and associated actions that can trigger a Choreo application are as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Action</th>
+<th>Application Trigger</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>issue_comment</td>
+<td>created</td>
+<td>Add a comment to an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>edited</td>
+<td>Edit a comment on an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>deleted</td>
+<td>Delete a comment on an issue</td>
+</tr>
+<tr>
+<td>issues</td>
+<td>assigned</td>
+<td>Assign an issue to a user</td>
+</tr>
+<tr>
+<td></td>
+<td>unassigned</td>
+<td>Unassign an issue from a user</td>
+</tr>
+<tr>
+<td></td>
+<td>labeled</td>
+<td>Add a label to an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>unlabeled</td>
+<td>Remove a label from an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>opened</td>
+<td>Open an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>edited</td>
+<td>edit an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>milestoned</td>
+<td>Add a milestone to an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>demilestoned</td>
+<td>Remove a milestone from an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>closed</td>
+<td>Close an issue</td>
+</tr>
+<tr>
+<td></td>
+<td>reopened</td>
+<td>Reopen an issue</td>
+</tr>
+<tr>
+<td>label</td>
+<td>created</td>
+<td>Create a label</td>
+</tr>
+<tr>
+<td></td>
+<td>edited</td>
+<td>Edit a label</td>
+</tr>
+<tr>
+<td></td>
+<td>deleted</td>
+<td>Delete a label</td>
+</tr>
+<tr>
+<td>milestone</td>
+<td>created</td>
+<td>Create a milestone</td>
+</tr>
+<tr>
+<td></td>
+<td>closed</td>
+<td>Close a milestone</td>
+</tr>
+<tr>
+<td></td>
+<td>opened</td>
+<td>Open a milestone</td>
+</tr>
+<tr>
+<td></td>
+<td>edited</td>
+<td>Edit a milestone</td>
+</tr>
+<tr>
+<td></td>
+<td>deleted</td>
+<td>Delete a milestone</td>
+</tr>
+<tr>
+<td>pull_request</td>
+<td>assigned</td>
+<td>Assign a pull request to a user</td>
+</tr>
+<tr>
+<td></td>
+<td>unassigned</td>
+<td>Unassign a pull request from a user</td>
+</tr>
+<tr>
+<td></td>
+<td>review_requested</td>
+<td>Request a user to review a pull request</td>
+</tr>
+<tr>
+<td></td>
+<td>review_request_removed</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>labeled</td>
+<td>Add a label to a pull request</td>
+</tr>
+<tr>
+<td></td>
+<td>unlabeled</td>
+<td>Remove a label from a pull request</td>
+</tr>
+<tr>
+<td></td>
+<td>opened</td>
+<td>Open a pull request</td>
+</tr>
+<tr>
+<td></td>
+<td>edited</td>
+<td>Edit a pull request</td>
+</tr>
+<tr>
+<td></td>
+<td>closed</td>
+<td>Close a pull request</td>
+</tr>
+<tr>
+<td></td>
+<td>reopened</td>
+<td>Reopen a pull request</td>
+</tr>
+<tr>
+<td>pull_request_review</td>
+<td>submitted</td>
+<td>Submit a pull request</td>
+</tr>
+<tr>
+<td></td>
+<td>edited</td>
+<td>Edit a pull request review</td>
+</tr>
+<tr>
+<td></td>
+<td>dismissed</td>
+<td>Dismiss a pull request review</td>
+</tr>
+<tr>
+<td>pull_request_review_comment</td>
+<td>created</td>
+<td>Create a pull request review comment</td>
+</tr>
+<tr>
+<td></td>
+<td>edited</td>
+<td>Edit a pull request review comment</td>
+</tr>
+<tr>
+<td></td>
+<td>deleted</td>
+<td>Delete a pull request review comment</td>
+</tr>
+</tbody>
+</table>
+<h3 id="statement">Statement<a class="headerlink" href="#statement" title="Permanent link">&para;</a></h3>
+<p>A statement is a syntactic unit that specifies the action to be carried out in a Choreo application. </p>
+<p>Choreo supports the following statements:</p>
+<ul>
+<li><strong>Log</strong>: Allows you to add an entry to the application log at runtime. You can either add an <strong>Info</strong> log or an <strong>Error</strong> log depending on your requirement   </li>
+<li><strong>If</strong>: Allows you to execute a collection of statements if a specified condition is met.    </li>
+<li><strong>Variable</strong>: Allows you to declare a variable of a preferred type depending on your requirement.   </li>
+<li><strong>For-each</strong>: Allows you to traverse through items in a collection of data. For example, traverse through arrays, maps, JSON, XML, and tables.  </li>
+<li><strong>Respond</strong>: Allows you to send a response back to its client. For example, to get an API to respond with an <code>HTTP_OK</code> indicating that the request was processed successfully.</li>
+<li><strong>Return</strong>: Allows you to end the ongoing execution of a Choreo application.</li>
+</ul>
+<h3 id="connector">Connector<a class="headerlink" href="#connector" title="Permanent link">&para;</a></h3>
+<p>A Choreo connector allows you to connect to and interact with an external service through your application. You can use connectors to interact with generic protocol-based APIs and application specific APIs.</p>
+<p>Following are the connectors you can use to interact with generic protocol-based APIs:</p>
+<ul>
+<li><strong>HTTP</strong>: Allows your application to interact with the HTTP API and communicate with an external endpoint via the HTTP protocol.   </li>
+<li><strong>SMTP</strong>: Allows your application to send emails via the SMTP protocol.   </li>
+<li><strong>POP3</strong>: Allows your application to receive emails from a POP3 email server.  </li>
+<li><strong>IMAP</strong>: Allows your application to receive emails from any email server that supports the IMAP protocol. </li>
+</ul>
+<p>Following are the connectors you can use to interact with application specific APIs:</p>
+<ul>
+<li><strong>GitHub</strong>: Allows your application to interact with the GitHub API and  perform required operations. </li>
+<li><strong>Gmail</strong>: Allows your application to interact with the Gmail API and perform operations such as creating, modifying, and sending emails.</li>
+<li><strong>Google Calendar</strong>: Allows your application to interact with the Google Calendar API and perform required operations. </li>
+<li><strong>Google Sheets</strong>: Allows your application to interact with the Google Sheets API and perform operations such as creating and listing spreadsheets.</li>
+<li><strong>Twilio</strong>: Allows your application to interact with the Twilio API and perform operations such as sending messages, WhatsApp messages, and making voice calls.</li>
+</ul>
+<h2 id="basic-concepts">Basic concepts<a class="headerlink" href="#basic-concepts" title="Permanent link">&para;</a></h2>
+<h3 id="integration">Integration<a class="headerlink" href="#integration" title="Permanent link">&para;</a></h3>
+<h3 id="service">Service<a class="headerlink" href="#service" title="Permanent link">&para;</a></h3>
+<h3 id="apis">APIs<a class="headerlink" href="#apis" title="Permanent link">&para;</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+  <a href="#" class="cd-top text--replace js-cd-top">Top</a>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSWTP6" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../overview/" title="About Choreo" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                About Choreo
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../build-from-scratch/" title="Build Your Integration from Scratch" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Build Your Integration from Scratch
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Documentation
+          </div>
+        
+        &copy;2020 <a href="https://wso2.com/">WSO2</a>
+      </div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../../assets/lib/highlightjs/highlight.min.js"></script>
+      
+        <script src="../../assets/js/theme.js"></script>
+      
+        <script src="../../assets/lib/backtotop/js/util.js"></script>
+      
+        <script src="../../assets/lib/backtotop/js/main.js"></script>
+      
+    
+  </body>
+</html>
