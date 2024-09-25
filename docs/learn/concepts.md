@@ -1,6 +1,6 @@
 # Understand Choreo Concepts
 
-Before you start working with Choreo, there are certain Choreo console components, constructs, and basic terminology that you need to understand. This section walks you through all the concepts and constructs. 
+Before you start working with Choreo, there are certain Choreo Console components, constructs, and basic terminology that you need to understand. This section walks you through all the concepts and constructs. 
  
 ## Console components
 
